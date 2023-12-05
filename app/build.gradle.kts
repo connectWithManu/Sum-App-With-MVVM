@@ -7,6 +7,9 @@ android {
     namespace = "com.manu.mvvmsumapp"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.manu.mvvmsumapp"
         minSdk = 26
